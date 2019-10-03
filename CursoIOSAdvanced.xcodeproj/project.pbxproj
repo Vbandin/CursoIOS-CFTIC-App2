@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 				89C1A19E33B8E66D66658091 /* Pods-CursoIOSAdvanced.debug.xcconfig */,
 				2B1555EBB3BB1C586A3F99E3 /* Pods-CursoIOSAdvanced.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +57,55 @@
 				999F68769411E4A4EBA9DA94 /* Pods_CursoIOSAdvanced.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94779CF2346448600E7C9D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D97B2ECC234523F400059583 /* AppDelegate.swift */,
+				D97B2ECE234523F400059583 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D94779D02346449700E7C9D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D97B2ED52345240200059583 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D94779D1234644A200E7C9D5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D94779D2234644AA00E7C9D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D94779D3234644B100E7C9D5 /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D94779D3234644B100E7C9D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D97B2ED72345240200059583 /* LaunchScreen.storyboard */,
+				D97B2ED2234523F400059583 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D94779D4234644C400E7C9D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D97B2ED0234523F400059583 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D97B2EC0234523F400059583 = {
@@ -81,13 +129,12 @@
 		D97B2ECB234523F400059583 /* CursoIOSAdvanced */ = {
 			isa = PBXGroup;
 			children = (
-				D97B2ECC234523F400059583 /* AppDelegate.swift */,
-				D97B2ECE234523F400059583 /* SceneDelegate.swift */,
-				D97B2ED0234523F400059583 /* ViewController.swift */,
-				D97B2ED2234523F400059583 /* Main.storyboard */,
-				D97B2ED52345240200059583 /* Assets.xcassets */,
-				D97B2ED72345240200059583 /* LaunchScreen.storyboard */,
 				D97B2EDA2345240200059583 /* Info.plist */,
+				D94779CF2346448600E7C9D5 /* App */,
+				D94779D02346449700E7C9D5 /* Resources */,
+				D94779D1234644A200E7C9D5 /* Data */,
+				D94779D2234644AA00E7C9D5 /* UI */,
+				D94779D4234644C400E7C9D5 /* Controllers */,
 			);
 			path = CursoIOSAdvanced;
 			sourceTree = "<group>";
